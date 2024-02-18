@@ -70,9 +70,9 @@ export class AppRoot extends mixinBehaviors([AppLocalizeBehavior], PolymerElemen
           --app-header-height: 3.5rem;
           --contact-view-gutter: calc(var(--app-toolbar-gutter) + var(--app-toolbar-button-gutter));
           --contact-view-max-width: 400px;
-          --light-green: #2fbea5;
-          --medium-green: #009688;
-          --dark-green: #263238;
+          --light-green: #383426;
+          --medium-green: #263834;
+          --dark-green: #342638;
           --light-gray: #ececec;
           --paper-dialog-button-color: var(--medium-green);
           --app-drawer-width: 280px;

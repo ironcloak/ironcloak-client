@@ -87,7 +87,7 @@ function main() {
 
   declare -r gradle_home="$HOME/Library/gradle"
   install_gradle "${gradle_home}"
-  "${gradle_home}/gradle-7.6/bin/gradle" --version
+  "${gradle_home}/gradle-7.6.4/bin/gradle" --version
 
   echo 'Setup done. Make these environment variables are defined:'
   echo 'export JAVA_HOME=$HOME/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home'
